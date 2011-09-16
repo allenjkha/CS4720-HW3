@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  Item: MyString
+  DueDate: 2011-09-15
+  Completed: false
+
+two:
+  Item: MyString
+  DueDate: 2011-09-15
+  Completed: false

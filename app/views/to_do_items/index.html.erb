@@ -1,0 +1,27 @@
+<h1>Listing to_do_items</h1>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Duedate</th>
+    <th>Completed</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @to_do_items.each do |to_do_item| %>
+  <tr>
+    <td><%= to_do_item.Item %></td>
+    <td><%= to_do_item.DueDate %></td>
+    <td><%= to_do_item.Completed %></td>
+    <td><%= link_to 'Show', to_do_item %></td>
+    <td><%= link_to 'Edit', edit_to_do_item_path(to_do_item) %></td>
+    <td><%= link_to 'Destroy', to_do_item, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New To do item', new_to_do_item_path %>
