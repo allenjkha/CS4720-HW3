@@ -9,3 +9,7 @@ table th, table tr {
   color: #fff;
   background: #000;
 }
+table tr {
+  color: #000;
+  background: #fff;
+}
