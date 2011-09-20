@@ -1,11 +1,19 @@
 // Place all the styles related to the ToDoItems controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+}
+div.container {
+  padding: 20px;
+}
 h1 {
+  display: inline-block;
   font-family: 'Droid Serif', serif;
-  padding-left: 35px;
   background: url('http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png') no-repeat;
-  background-size: 30px 30px;
+  background-size: 40px 40px;
+  padding: 12px 0 9px 55px;
   vertical-align: middle;
 }
 table {
