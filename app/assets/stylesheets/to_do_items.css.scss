@@ -41,7 +41,7 @@ div.container h1.main span {
 div.container div.wrapper {
   width: 100%;
   overflow: hidden;
-  margin-top: 25px;
+  margin-top: 47px;
 }
 div.container div.wrapper h2 {
   display: block;
@@ -55,6 +55,7 @@ div.container div.wrapper h2 {
   position: fixed;
   width: 100%;
   z-index: 1000;
+  margin-top: -22px;
 }
 div.container div.wrapper ul {
   list-style: none;
@@ -62,7 +63,6 @@ div.container div.wrapper ul {
   padding: 0;
   width: 100%;
   min-height: 326px;
-  margin-top: 22px;
   overflow: auto;
 }
 div.container div.wrapper ul li {
