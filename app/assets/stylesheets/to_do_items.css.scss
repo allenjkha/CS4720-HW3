@@ -14,7 +14,13 @@ h1 {
   background: url('http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png') no-repeat;
   background-size: 40px 40px;
   padding: 12px 0 9px 55px;
-  vertical-align: middle;
+  margin-bottom: 12px;
+}
+div.wrapper {
+  width: 400px;
+  overflow: hidden;
+  border: 1px solid #000;
+  padding: 10px;
 }
 table {
   border-spacing: 0px;
