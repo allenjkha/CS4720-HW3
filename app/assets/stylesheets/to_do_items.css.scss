@@ -9,6 +9,7 @@ div.container {
   width: 320px;
   height: 420px;
   overflow: auto;
+  background: #eee;
 }
 h1 {
   display: block;
@@ -20,7 +21,8 @@ h1 {
   font-weight: 100;
 }
 h1 span {
-  display: inline-block;
+  display: block;
+  width: 106px;
   margin: 0 auto;
   padding: 2px 1px 1px 1px;
   background-size: 16px 16px;
@@ -37,9 +39,7 @@ table th, table td {
   margin: 0;
   padding: 8px;
   color: #fff;
-  background: #000;
 }
 table td {
   color: #000;
-  background: #fff; 
 }
