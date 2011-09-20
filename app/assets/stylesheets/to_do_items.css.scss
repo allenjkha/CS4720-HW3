@@ -43,13 +43,17 @@ div.container div.wrapper ul li {
 }
 div.container div.wrapper ul li a {
   display: block;
-  padding: 10px;
+  padding: 14px 0;
   font-family: 'Droid Sans', sans-serif;
   font-size: 14px;
   text-decoration: none;
-  padding-left: 35px;
-  background: url("http://allenkha.com/sandbox/icons/ic_menu_flag.png") no-repeat 5px center;
+  padding-left: 54px;
+  background: url("http://allenkha.com/sandbox/icons/ic_menu_flag.png") no-repeat 16px center;
   background-size: 20px;
+}
+div.container div.wrapper ul li a:focus {
+  background-color: #333;
+  color: #fff;
 }
 table {
   border-spacing: 0px;
