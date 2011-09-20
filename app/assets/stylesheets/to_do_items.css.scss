@@ -5,11 +5,14 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: #eee;
+}
 div.container {
   min-width: 320px;
   width: 100%;
   min-height: 426px;
-  overflow: auto;
+  overflow: hidden;
   background: #eee;
 }
 div.container h1.main {
@@ -32,6 +35,8 @@ div.container h1.main span {
 }
 div.container div.wrapper {
   width: 100%;
+  min-height: 360px;
+  overflow: auto;
 }
 div.container div.wrapper h2 {
   display: block;
@@ -97,7 +102,7 @@ div.container div.wrapper ul li div a.delete.visible {
 div.bottom {
   position: fixed;
   bottom: 0px;
-  height: 30px;
+  height: 50px;
   width: 100%;
   margin-top: 40px;
   background: #999;
