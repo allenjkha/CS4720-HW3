@@ -51,7 +51,7 @@ div.container div.wrapper ul li a {
   background: url("http://allenkha.com/sandbox/icons/ic_menu_flag.png") no-repeat 16px center;
   background-size: 20px;
 }
-div.container div.wrapper ul li a:focus {
+div.container div.wrapper ul li a:active, div.container div.wrapper ul li a:focus {
   background-color: #333;
   color: #fff;
 }
