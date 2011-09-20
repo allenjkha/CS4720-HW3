@@ -1,14 +1,21 @@
 // Place all the styles related to the ToDoItems controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 
-$padding: 8px;
-$white: #fff;
-$black: #000;
-
-table th {
+h1 {
+  font-family: 'Droid Serif', serif;
+}
+table {
+  border-spacing: 0px;
+}
+table th, table td {
   margin: 0;
-  padding: $padding;
-  color: $white;
-  background: $black; // PLEASE WORK!
+  padding: 8px;
+  color: #fff;
+  background: #000;
+}
+table td {
+  color: #000;
+  background: #fff; 
 }
