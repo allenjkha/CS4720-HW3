@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
+
 h1 {
   font-family: 'Droid Serif', serif;
 }
@@ -12,7 +14,7 @@ table th, table td {
   margin: 0;
   padding: 8px;
   color: #fff;
-  background: #333;
+  background: #000;
 }
 table td {
   color: #000;
