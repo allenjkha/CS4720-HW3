@@ -107,6 +107,15 @@ div.container div.wrapper ul li div a.delete.visible {
   display: inline-block;
   background: url("http://allenkha.com/sandbox/icons/ic_menu_stop.png") no-repeat 0 center;
 }
+div.bottom a.add {
+  display: inline-block;
+  background: url("http://allenkha.com/sandbox/icons/ic_menu_tags.png") no-repeat 20px center;
+  height: 100%;
+  background-size: 32px;
+  padding-left: 68px;
+  padding-right: 20px;
+  line-height: 50px;
+}
 div.bottom {
   position: fixed;
   bottom: 0px;

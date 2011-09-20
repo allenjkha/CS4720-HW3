@@ -28,7 +28,7 @@
 	<li><%= link_to to_do_item.Item, to_do_item, :class => "item" %>
 		<div>
 		<%= link_to 'Edit', edit_to_do_item_path(to_do_item), :class => "edit sub" %>
-		<%= link_to 'Destroy', to_do_item, :confirm => 'Are you sure?', :method => :delete, :class => "delete sub" %>
+		<%= link_to 'Destroy', to_do_item, :method => :delete, :class => "delete sub" %>
 		</div>
 	</li>
 <% end %>
