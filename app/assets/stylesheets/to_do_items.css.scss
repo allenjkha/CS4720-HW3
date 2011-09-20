@@ -26,6 +26,7 @@ div.container h1.main {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 div.container h1.main span {
   display: block;
