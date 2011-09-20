@@ -11,7 +11,7 @@ div.container {
   overflow: auto;
   background: #eee;
 }
-div.container h1 {
+div.container h1.main {
   display: block;
   font-family: 'Droid Serif', serif;
   font-size: 13px;
@@ -19,7 +19,7 @@ div.container h1 {
   color: white;
   font-weight: 100;
 }
-div.container h1 span {
+div.container h1.main span {
   display: block;
   width: 106px;
   margin: 0 auto;
@@ -46,6 +46,7 @@ div.container div.wrapper ul li a {
   padding: 10px;
   font-family: 'Droid Sans', sans-serif;
   font-size: 14px;
+  text-decoration: none;
 }
 table {
   border-spacing: 0px;
