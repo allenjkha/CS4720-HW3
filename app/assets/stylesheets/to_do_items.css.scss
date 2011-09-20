@@ -73,22 +73,24 @@ div.container div.wrapper ul li a.clickstate {
 }
 div.container div.wrapper ul li div {
   position: absolute;
-  right: 20px;
+  right: 25px;
+  top: 0;
   height: 100%;
 }
-a.edit, a.delete {
+div.container div.wrapper ul li div a.edit, div.container div.wrapper ul li div a.delete {
   display: none;
   float: right;
   width: 20px;
   height: 20px;
   background-size: 20px;
   margin-left: 15px;
+  text-indent: -9999px;
 }
-a.edit.visible {
+div.container div.wrapper ul li div a.edit.visible {
   display: inline-block;
   background: url("http://allenkha.com/sandbox/icons/ic_menu_wizard.png") no-repeat 0 center;
 }
-a.delete.visible {
+div.container div.wrapper ul li div a.delete.visible {
   display: inline-block;
   background: url("http://allenkha.com/sandbox/icons/ic_menu_stop.png") no-repeat 0 center;
 }
