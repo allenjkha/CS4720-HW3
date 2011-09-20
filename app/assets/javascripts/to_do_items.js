@@ -1,9 +1,9 @@
 $(document).ready(function(){
-  $("ul li a").mouseup(function(){
-    $(this).removeClass("clickstate");
-    $(this).children(".sub").removeClass("visible");
+  $("ul li").mouseup(function(){
+    $(this).children("a.item").removeClass("clickstate");
+    $(this).children("a.sub").removeClass("visible");
     }).mousedown(function(){
-      $(this).addClass("clickstate");
-      $(this).children(".sub").addClass("visible");
+      $(this).children("a.item").addClass("clickstate");
+      $(this).children("a.sub").addClass("visible");
      });
 });

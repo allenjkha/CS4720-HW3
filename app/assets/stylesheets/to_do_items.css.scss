@@ -54,7 +54,7 @@ div.container div.wrapper ul li {
   border-bottom: 1px solid #666;
   position: relative;
 }
-div.container div.wrapper ul li a {
+div.container div.wrapper ul li a.item {
   display: block;
   padding: 14px 0;
   font-family: 'Droid Sans', sans-serif;
@@ -64,10 +64,10 @@ div.container div.wrapper ul li a {
   background: url("http://allenkha.com/sandbox/icons/ic_menu_flag.png") no-repeat 16px center;
   background-size: 20px;
 }
-div.container div.wrapper ul li a:hover {
+div.container div.wrapper ul li a.item:hover {
   color: #000;
 }
-div.container div.wrapper ul li a.clickstate {
+div.container div.wrapper ul li a.item.clickstate {
   background-color: #333;
   color: #fff;
 }
