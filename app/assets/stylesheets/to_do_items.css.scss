@@ -11,13 +11,21 @@ div.container {
   overflow: auto;
 }
 h1 {
-  display: inline-block;
+  display: block;
   font-family: 'Droid Serif', serif;
-  background: url('http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png') no-repeat;
-  background-size: 10px 10px;
-  padding: 12px 0 9px 15px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   font-size: 13px;
+  background: black;
+  color: white;
+  font-weight: 100;
+}
+h1 span {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2px 1px 1px 1px;
+  background-size: 16px 16px;
+  background: url("http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png") no-repeat 4px 2px;
+  text-indent: 25px;
 }
 div.wrapper {
   width: 100%;
