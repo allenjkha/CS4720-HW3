@@ -23,6 +23,9 @@ div.container h1.main {
   color: white;
   font-weight: 100;
   padding: 2px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 div.container h1.main span {
   display: block;
@@ -35,8 +38,8 @@ div.container h1.main span {
 }
 div.container div.wrapper {
   width: 100%;
-  min-height: 360px;
-  overflow: auto;
+  overflow: hidden;
+  margin-top: 25px;
 }
 div.container div.wrapper h2 {
   display: block;
@@ -47,12 +50,17 @@ div.container div.wrapper h2 {
   color: #000;
   font-weight: 100;
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 div.container div.wrapper ul {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 326px;
+  margin-top: 22px;
+  overflow: auto;
 }
 div.container div.wrapper ul li {
   display: block;
