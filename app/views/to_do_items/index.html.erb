@@ -25,8 +25,9 @@
 -->
 <ul>
 <% @to_do_items.each do |to_do_item| %>
-	<li><%= link_to to_do_item.Item, to_do_item %>	
+	<li><%= link_to to_do_item.Item, to_do_item %>
+		<%= link_to 'Edit', edit_to_do_item_path(to_do_item), :class => "edit sub" %>
+		<%= link_to 'Destroy', to_do_item, :confirm => 'Are you sure?', :method => :delete, :class => "delete sub" %>
 	</li>
 <% end %>
 </ul>
-<%= link_to 'New To do item', new_to_do_item_path %>

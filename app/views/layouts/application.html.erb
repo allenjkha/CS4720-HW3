@@ -9,11 +9,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class="container">
-<h1 class="main"><span>Ruby Demo</span></h1>
-<div class="wrapper">
-<%= yield %>
-</div>
+<div class="container">
+	<h1 class="main"><span>Ruby Demo</span></h1>
+	<div class="wrapper">
+		<%= yield %>
+	</div>
+	<div class="bottom">
+		<%= link_to 'New To do item', new_to_do_item_path %>
+		
+	</div>
 </div>
 </body>
 </html>

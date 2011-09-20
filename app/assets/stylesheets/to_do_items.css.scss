@@ -6,8 +6,8 @@
   padding: 0;
 }
 div.container {
-  width: 320px;
-  height: 426px;
+  min-width: 320px;
+  min-height: 426px;
   overflow: auto;
   background: #eee;
 }
@@ -25,7 +25,7 @@ div.container h1.main span {
   width: 102px;
   margin: 0 auto;
   padding: 2px 1px 1px 1px;
-  background-size: 16px 16px;
+  background-size: 16px;
   background: url("http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png") no-repeat 4px 2px;
   text-indent: 25px;
 }
@@ -37,7 +37,7 @@ div.container div.wrapper h2 {
   font-family: 'Droid Serif', serif;
   font-size: 12px;
   padding: 2px 0;
-  background: #ddd;
+  background: #CCC;
   color: #000;
   font-weight: 100;
   text-align: center;
@@ -45,15 +45,12 @@ div.container div.wrapper h2 {
 div.container div.wrapper ul {
   list-style: none;
   margin: 0;
-  margin-top: 1px;
   padding: 0;
   width: 100%;
 }
 div.container div.wrapper ul li {
   display: block;
-  border-top: 1px solid #666;
   border-bottom: 1px solid #666;
-  margin-top: -1px;
 }
 div.container div.wrapper ul li a {
   display: block;
@@ -72,14 +69,25 @@ div.container div.wrapper ul li a.clickstate {
   background-color: #333;
   color: #fff;
 }
-table {
-  border-spacing: 0px;
+div.edit, div.delete {
+  display: none;
+  float: right;
+  background-size: 20px;
+  margin-left: 15px;
 }
-table th, table td {
-  margin: 0;
-  padding: 8px;
+div.edit.visible {
+  display: inline-block;
+  background: url("http://allenkha.com/sandbox/icons/ic_menu_wizard.png") no-repeat 0 center;
+}
+div.delete.visible {
+  display: inline-block;
+  background: url("http://allenkha.com/sandbox/icons/ic_menu_stop.png") no-repeat 0 center;
+}
+div.bottom {
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  background: #999;
   color: #fff;
-}
-table td {
-  color: #000;
+  z-index: 1000;
 }
