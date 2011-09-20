@@ -6,12 +6,12 @@
   padding: 0;
 }
 div.container {
-  width: 250px;
-  height: 350px;
+  width: 320px;
+  height: 426px;
   overflow: auto;
   background: #eee;
 }
-h1 {
+div.container h1 {
   display: block;
   font-family: 'Droid Serif', serif;
   margin-bottom: 4px;
@@ -20,7 +20,7 @@ h1 {
   color: white;
   font-weight: 100;
 }
-h1 span {
+div.container h1 span {
   display: block;
   width: 106px;
   margin: 0 auto;
@@ -29,8 +29,21 @@ h1 span {
   background: url("http://gujaratwebdevelopmentindia.com/cake/beta/userfiles/image/ruby.png") no-repeat 4px 2px;
   text-indent: 25px;
 }
-div.wrapper {
+div.container div.wrapper {
   width: 100%;
+}
+div.container div.wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+div.container div.wrapper ul li {
+  display: block;
+  padding: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #666;
 }
 table {
   border-spacing: 0px;
