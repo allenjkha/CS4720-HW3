@@ -7,6 +7,7 @@
 }
 div.container {
   min-width: 320px;
+  width: 100%;
   min-height: 426px;
   overflow: auto;
   background: #eee;
@@ -69,17 +70,19 @@ div.container div.wrapper ul li a.clickstate {
   background-color: #333;
   color: #fff;
 }
-div.edit, div.delete {
+a.edit, a.delete {
   display: none;
   float: right;
+  width: 20px;
+  height: 20px;
   background-size: 20px;
   margin-left: 15px;
 }
-div.edit.visible {
+a.edit.visible {
   display: inline-block;
   background: url("http://allenkha.com/sandbox/icons/ic_menu_wizard.png") no-repeat 0 center;
 }
-div.delete.visible {
+a.delete.visible {
   display: inline-block;
   background: url("http://allenkha.com/sandbox/icons/ic_menu_stop.png") no-repeat 0 center;
 }
