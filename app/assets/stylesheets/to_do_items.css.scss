@@ -14,7 +14,6 @@ div.container {
 div.container h1 {
   display: block;
   font-family: 'Droid Serif', serif;
-  margin-bottom: 4px;
   font-size: 13px;
   background: black;
   color: white;
@@ -40,10 +39,13 @@ div.container div.wrapper ul {
 }
 div.container div.wrapper ul li {
   display: block;
+  border-bottom: 1px solid #666;
+}
+div.container div.wrapper ul li a {
+  display: block;
   padding: 10px;
   font-family: 'Droid Sans', sans-serif;
   font-size: 14px;
-  border-bottom: 1px solid #666;
 }
 table {
   border-spacing: 0px;

@@ -23,7 +23,8 @@
 -->
 <ul>
 <% @to_do_items.each do |to_do_item| %>
-	<li><%= to_do_item.Item %></li>
+	<li><a href="<%= link_to '<%= to_do_item.Item %>', to_do_item %>"></a>	
+	</li>
 <% end %>
 </ul>
 </table>
