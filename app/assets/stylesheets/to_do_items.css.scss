@@ -18,10 +18,11 @@ div.container h1.main {
   background: black;
   color: white;
   font-weight: 100;
+  padding: 2px 0;
 }
 div.container h1.main span {
   display: block;
-  width: 106px;
+  width: 102px;
   margin: 0 auto;
   padding: 2px 1px 1px 1px;
   background-size: 16px 16px;
@@ -34,20 +35,25 @@ div.container div.wrapper {
 div.container div.wrapper h2 {
   display: block;
   font-family: 'Droid Serif', serif;
-  font-size: 11px;
+  font-size: 12px;
+  padding: 2px 0;
   background: #ddd;
   color: #000;
   font-weight: 100;
+  text-align: center;
 }
 div.container div.wrapper ul {
   list-style: none;
   margin: 0;
+  margin-top: 1px;
   padding: 0;
   width: 100%;
 }
 div.container div.wrapper ul li {
   display: block;
+  border-top: 1px solid #666;
   border-bottom: 1px solid #666;
+  margin-top: -1px;
 }
 div.container div.wrapper ul li a {
   display: block;
